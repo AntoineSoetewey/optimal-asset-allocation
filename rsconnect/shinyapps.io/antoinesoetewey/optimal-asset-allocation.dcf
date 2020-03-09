@@ -5,8 +5,8 @@ account: antoinesoetewey
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1374651
-bundleId: 2849532
+bundleId: 2863823
 url: https://antoinesoetewey.shinyapps.io/optimal-asset-allocation/
-when: 1583306364.96028
+when: 1583751560.64776
 asMultiple: FALSE
 asStatic: FALSE
