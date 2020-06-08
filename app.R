@@ -41,7 +41,7 @@ ui <- fluidPage(
           hr(),
           numericInput("amount_to_invest", "How much are you willing to invest?", 1000, min = 0, step = 100),
           hr(),
-          HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/optimal-asset-allocation/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/optimal-asset-allocation/blob/master/app.R">code</a>. Back to <a href="https://www.antoinesoetewey.com/">www.antoinesoetewey.com</a> or <a href="https://www.statsandr.com/">www.statsandr.com</a>.</p>')
+          HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/optimal-asset-allocation/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/optimal-asset-allocation">code</a>. Back to <a href="https://www.antoinesoetewey.com/">www.antoinesoetewey.com</a> or <a href="https://www.statsandr.com/">www.statsandr.com</a>.</p>')
         ),
 
         # Main panel for displaying outputs ----
@@ -98,7 +98,7 @@ ui <- fluidPage(
           numericInput("real_estate", "Real estate", 0, min = 0, step = 100),
           numericInput("cash", "Cash", 0, min = 0, step = 100),
           hr(),
-          HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/optimal-asset-allocation/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/optimal-asset-allocation/blob/master/app.R">code</a>. Back to <a href="https://www.antoinesoetewey.com/">www.antoinesoetewey.com</a>.</p>')
+          HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/optimal-asset-allocation/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/optimal-asset-allocation">code</a>. Back to <a href="https://www.antoinesoetewey.com/">www.antoinesoetewey.com</a>.</p>')
         ),
 
         # Main panel for displaying outputs ----
