@@ -41,7 +41,7 @@ ui <- fluidPage(
           hr(),
           numericInput("amount_to_invest", "How much are you willing to invest?", 1000, min = 0, step = 100),
           hr(),
-          HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/optimal-asset-allocation/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/optimal-asset-allocation">code</a>. Back to <a href="https://www.antoinesoetewey.com/">www.antoinesoetewey.com</a> or <a href="https://www.statsandr.com/">www.statsandr.com</a>.</p>')
+          HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/optimal-asset-allocation/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/optimal-asset-allocation">code</a>. See more information about this app in this <a href="https://www.statsandr.com/blog/practical-guide-on-optimal-asset-allocation/">article</a>.</p><p>Back to <a href="https://www.antoinesoetewey.com/">www.antoinesoetewey.com</a> or <a href="https://www.statsandr.com/">www.statsandr.com</a>.</p>')
         ),
 
         # Main panel for displaying outputs ----
@@ -66,10 +66,7 @@ ui <- fluidPage(
           ),
           plotOutput("distPlot"),
           br(),
-          p(em("Disclosure 1: Note that this practical guide on asset allocation is based on the book A Random Walk Down Wall Street by Burton G. Malkiel. This application does not include investment advice or recommendations, nor a financial analysis. This application is intended for information only and you invest at your own risks. I cannot be held liable for any decision made based on the information contained in this application, nor for its use by third parties.")),
-          tags$a(href = "https://www.amazon.com/gp/product/0393352242/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0393352242&linkCode=as2&tag=antoinesoetew-20&linkId=55f4165ca6155fa54d7cbde4fcf6ac23", "Buy A Random Walk Down Wall Street on Amazon.com"),
-          p(em("Disclosure 2: If you end up buying something on Amazon.com via the link, you help support this website (and the Shiny app servers) because I will get a percentage of that sale. You will pay the exact same price than if you buy via another link.")),
-          # tags$a(href="https://www.antoinesoetewey.com/", "Back to www.antoinesoetewey.com"),
+          p(em("Disclosure: Note that this practical guide on asset allocation is based on the book A Random Walk Down Wall Street by Burton G. Malkiel. This application does not include investment advice or recommendations, nor a financial analysis. This application is intended for information only and you invest at your own risks. I cannot be held liable for any decision made based on the information contained in this application, nor for its use by third parties.")),
           br(),
           br()
         )
@@ -98,7 +95,7 @@ ui <- fluidPage(
           numericInput("real_estate", "Real estate", 0, min = 0, step = 100),
           numericInput("cash", "Cash", 0, min = 0, step = 100),
           hr(),
-          HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/optimal-asset-allocation/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/optimal-asset-allocation">code</a>. Back to <a href="https://www.antoinesoetewey.com/">www.antoinesoetewey.com</a>.</p>')
+          HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/optimal-asset-allocation/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/optimal-asset-allocation">code</a>. See more information about this app in this <a href="https://www.statsandr.com/blog/practical-guide-on-optimal-asset-allocation/">article</a>.</p><p>Back to <a href="https://www.antoinesoetewey.com/">www.antoinesoetewey.com</a> or <a href="https://www.statsandr.com/">www.statsandr.com</a>.</p>')
         ),
 
         # Main panel for displaying outputs ----
@@ -108,10 +105,7 @@ ui <- fluidPage(
           br(),
           plotOutput("distPlot2"),
           br(),
-          p(em("Disclosure 1: Note that this practical guide on asset allocation is based on the book A Random Walk Down Wall Street by Burton G. Malkiel. This application does not include investment advice or recommendations, nor a financial analysis. This application is intended for information only and you invest at your own risks. I cannot be held liable for any decision made based on the information contained in this application, nor for its use by third parties.")),
-          tags$a(href = "https://www.amazon.com/gp/product/0393352242/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0393352242&linkCode=as2&tag=antoinesoetew-20&linkId=55f4165ca6155fa54d7cbde4fcf6ac23", "Buy A Random Walk Down Wall Street on Amazon.com"),
-          p(em("Disclosure 2: If you end up buying something on Amazon.com via the link, you help support this website (and the Shiny app servers) because I will get a percentage of that sale. You will pay the exact same price than if you buy via another link.")),
-          # tags$a(href="https://www.antoinesoetewey.com/", "Back to www.antoinesoetewey.com"),
+          p(em("Disclosure: Note that this practical guide on asset allocation is based on the book A Random Walk Down Wall Street by Burton G. Malkiel. This application does not include investment advice or recommendations, nor a financial analysis. This application is intended for information only and you invest at your own risks. I cannot be held liable for any decision made based on the information contained in this application, nor for its use by third parties.")),
           br(),
           br()
         )
